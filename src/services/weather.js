@@ -15,10 +15,10 @@ export async function getWeatherFrom(query = 'Buenos Aires') {
 	const { location, current } = data;
 	const { country, localtime, name } = location;
 	const { condition, humidity, is_day, feelslike_c, temp_c, wind_kph, wind_dir } = current;
-	const { code, text } = condition;
+	const { icon, text } = condition;
 
 	return {
-		conditionCode: code,
+		icon,
 		conditionText: text,
 		country,
 		localtime,

@@ -22,10 +22,11 @@
 
     div {
         aspect-ratio: 9 / 16;
+        position: relative;
         width: 400px;
         max-width: 100%;
-        position: relative;
-        display: block;
+        display: flex;
+        flex-direction: column;
         border-radius: 8px;
         box-shadow: 0 0 100px rgba(0, 0, 0, .1);
     }

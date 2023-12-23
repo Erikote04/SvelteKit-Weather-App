@@ -8,7 +8,7 @@
 		<strong> Humidity </strong>
 	</div>
 	<div>
-		<span> {windSpeed}km/h, {windDirection} </span>
+		<span> {windSpeed} km/h, {windDirection} </span>
 		<strong> Wind </strong>
 	</div>
 	<div>
