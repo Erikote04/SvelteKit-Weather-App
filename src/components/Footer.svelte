@@ -1,14 +1,18 @@
+<script>
+    export let humidity, windSpeed, windDirection, feelsLike;
+</script>
+
 <footer>
 	<div>
-		<span> 33% </span>
+		<span> {humidity}% </span>
 		<strong> Humidity </strong>
 	</div>
 	<div>
-		<span> 12 km h </span>
+		<span> {windSpeed}km/h, {windDirection} </span>
 		<strong> Wind </strong>
 	</div>
 	<div>
-		<span> 30º </span>
+		<span> {feelsLike}º </span>
 		<strong> Feels-like </strong>
 	</div>
 </footer>

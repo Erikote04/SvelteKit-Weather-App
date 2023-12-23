@@ -10,10 +10,14 @@
         <h1>{weather.name}</h1>
         <h2>{weather.temperature}º</h2>
         <h3>{weather.conditionText}</h3>
-        <h4>{weather.windSpeed}km/h</h4>
     </section>
 
-    <Footer />
+    <Footer 
+        humidity={weather.humidity}
+        windSpeed={weather.windSpeed}
+        windDirection={weather.windDir}
+        feelsLike={weather.feelsLike}
+    />
 {/await}
 
 <style>
