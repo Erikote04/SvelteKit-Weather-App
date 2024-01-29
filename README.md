@@ -1,4 +1,3 @@
-<img width="450" alt="weather-app e.g. Buenos Aires" src="https://github.com/Erikote04/SvelteKit-Weather-App/assets/126704751/c51de790-92f9-4c0f-82a7-79417a7b2589">
 <img width="450" alt="weather-app e.g. Madrid" src="https://github.com/Erikote04/SvelteKit-Weather-App/assets/126704751/a5924ddf-5da9-44d5-81ba-f55a16447ee5">
 
 # create-svelte
